@@ -1,0 +1,332 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <title>FORM 1</title>
+<link rel="stylesheet" href="FORM1.css">
+    </head>
+
+
+<body>
+    <div class="container">
+        <div class="content">
+            <ul class="HEAD">
+                <li class="head">
+                    <h1 class="TITLE"><em> CLIENT DETAILS </em></h1>
+                    <p class="title">Enter the details of all incoming clients.</p>
+
+                    <div class="line"></div>
+                </li>
+            </ul>
+
+<form action="/action_page.php">
+            <div class="FORM">
+                <ul class="form">
+
+
+                    <li class="form1">
+                        <label for="CLIENT NAME" class="NAME">
+                            <span>Client Name</span>
+                            <em class="REQUIRE">*</em>
+                        </label>
+
+                        <div class="BOX">
+                            <span>
+                                <input type="text" id="CLIENT NAME" name="Client Name" required>
+                            </span>
+                        </div>
+                        <div class="line"></div>
+                    </li>
+
+
+                    <li class="form1">
+                        <label for="COMPANY" class="NAME">
+                            <span>Company</span>
+                            <em class="REQUIRE">*</em>
+                        </label>
+
+                        <div class="BOX">
+                            <span>
+                                <input type="text" id="COMPANY" name="Company" required>
+                            </span>
+                        </div>
+                        <div class="line"></div>
+                    </li>
+
+
+                    <li class="form1">
+                        <label for="TITLE" class="NAME">
+                            <span>Title</span>
+                            <em class="REQUIRE">*</em>
+                        </label>
+
+                        <div class="BOX">
+                            <span>
+                                <input type="text" id="TITLE" name="Title" required>
+                            </span>
+                        </div>
+                        <div class="line"></div>
+                    </li>
+
+
+                    <li class="form1">
+                        <label for="DEPARTMENT" class="NAME">
+                            <span>Department</span>
+                            <em class="REQUIRE">*</em>
+                        </label>
+
+                        <div class="BOX">
+                            <div class="SelectDepartment">
+                                <div class="arrow"></div>
+                                <span>
+                                <select name="Department" id="DEPARTMENT" required>
+                                    <option value="1">-Select-</option>
+                                    <option value="2">-Select-</option>
+                                    <option value="3">-Select-</option>
+                                    <option value="4">-Select-</option>
+                                </select>
+                                </span>
+                                </div>
+                            </div>
+                        
+                        <div class="line"></div>
+                    </li>
+
+
+                    <li class="form1 SIDE">
+                        <label class="NAME">
+                            <span>Preferred contact method</span>
+                            <em class="REQUIRE">*</em>
+                        </label>
+
+                        <div class="BOX">
+                            <div class="RADIO">
+                                <span class="EMAIL">
+                                    <input type="radio" id="EMAIL1" class="email" name="Email" value="Email" required>
+                                    <label for="EMAIL1" class="email1">
+                                        <div class="checkshit"></div>
+                                        <em class="INHERIT">Email</em>
+                                    </label>
+                                </span>
+
+                                <span class="EMAIL">
+                                    <input type="radio" id="PHONE1" class="email" name="Phone" value="Phone" required>
+                                    <label for="PHONE1" class="email1">
+                                        <div class="checkshit"></div>
+                                        <em class="INHERIT">Phone</em>
+                                    </label>
+                                </span>
+                                <div class="line"></div>
+                            </div>
+                        </div>
+                        <div class="line"></div>
+                    </li>
+
+
+                    <li class="form1">
+                        <label for="EMAIL2" class="NAME">
+                            <span>Email</span>
+                            <em class="REQUIRE">*</em>
+                        </label>
+
+                        <div class="BOX">
+                            <span>
+                                <input type="text" id="EMAIL2" name="Email" required>
+                            </span>
+                        </div>
+                        <div class="line"></div>
+                    </li>
+
+
+                    <li class="form1">
+                        <label for="PHONE2" class="NAME">
+                            <span>Phone</span>
+                            <em class="REQUIRE">*</em>
+                        </label>
+
+                        <div class="BOX">
+                            <span>
+                                <input type="text" id="PHONE2" name="Phone" required>
+                            </span>
+                        </div>
+                        <div class="line"></div>
+                    </li>
+
+
+
+                    <li class="form3 left">
+                        <div class="checkshit"></div>
+                        <label class="NAME">
+                        <span>Company address</span>
+                            <em class="REQUIRE">*</em>
+                        </label>
+
+                        <div class="BOX address">
+                            <div class="label">
+                                <span class="CA">
+                                    <input type="text" name="Street address" id="STREET ADDRESS" required>
+                                    <label class="SUB" for="STREET ADDRESS">Street address</label>
+                                </span>
+                                <span class="CA">
+                                    <input type="text" name="Address line 2" id="ADDRESS LINE 2" required>
+                                    <label class="SUB" for="ADDRESS LINE 2">Address line 2</label>
+                                </span>
+                                <span class="LEFTY TWO">
+                                    <input type="text" name="City" id="STREET ADDRESS" required>
+                                    <label class="SUB" for="STREET ADDRESS">City</label>
+                                </span>
+                                <span class="LEFTY TWO">
+                                    <input type="text" name="State/Region/Province" id="STATE" required>
+                                    <label class="SUB" for="STATE">State/Region/Province</label>
+                                </span>
+
+
+                                <li class="form2 left">
+                                    <div class="BOX address">
+                                        <div class="label">
+                                <span class="LEFTY TWO">
+                                    <input type="text" name="Postal / Zip Code" id="ZIPCODE" required>
+                                    <label class="SUB" for="ZIPCODE">Postal / Zip Code</label>
+                                </span>
+                                <span class="LEFTY TWO">
+
+                                        <select title="countries" name="ph" id="ph" class="lagayan3" required>
+                                            <option value="ph">-Select-</option>
+                                            <option value="indo">Indonesia</option>
+                                            <option value="thai">Thailand</option>
+                                            <option value="viet">Vietnam</option>
+                                         </select>
+                                    
+                                    <label class="SUB" for="COUNTRY">Country</label>
+
+                                </span>
+                                <div class="line"></div>
+                            </div>
+                        </div>
+                        <div class="line"></div>
+                    </li>
+
+
+                    <li class="form1">
+                        <label for="CW" class="NAME">
+                            <span>Company Website</span>
+                            <em class="REQUIRE">*</em>
+                        </label>
+
+                        <div class="BOX">
+                            <span>
+                                <input type="text" id="CW" name="Company website" required>
+                            </span>
+                        </div>
+                        <div class="line"></div>
+                    </li>
+
+
+                    <li class="form1 file">
+                        <label for="CW" class="NAME">
+                            <span>Company Logo</span>
+                            <em class="REQUIRE">*</em>
+                        </label>
+
+                        <div class="BOX">
+                            <span>
+                            <div class="UPLOAD">
+                                
+                                <input type="file" required>
+                                <input style="display:none">
+
+                                <div class="IMAGE">
+                                    <div class="IMAGE1">
+                                        <div class="LFT IMGTEXT">Choose File</div>
+                                    </div>
+                                    
+                                </div>
+                            </div>
+                            </span>
+                        </div>
+                    </li>
+
+
+                    <li class="form1">
+                        <label for="WH" class="NAME">
+                            <span>Working Hours</span>
+                            <em class="REQUIRE">*</em>
+                        </label>
+
+                        <div class="BOX">
+                            <span>
+                                <input type="text" id="WH" name="Working Hours" required>
+                            </span>
+                        </div>
+                        <div class="line"></div>
+                    </li>
+
+                    
+                    <li class="form1">
+                        <label for="WD" class="NAME">
+                            <span>Working Days</span>
+                            <em class="REQUIRE">*</em>
+                        </label>
+
+                        <div class="BOX">
+                            <span>
+                                <input type="text" id="WD" name="Working Days" required>
+                            </span>
+                        </div>
+                        <div class="line"></div>
+                    </li>
+
+
+                    <li class="form1">
+                        <label for="BW" class="NAME">
+                            <span>Billing Cycle</span>
+                            <em class="REQUIRE">*</em>
+                        </label>
+
+                        <div class="BOX">
+                            <span>
+                                <input type="text" id="BW" name="Billing Cycle" required>
+                            </span>
+                        </div>
+                        <div class="line"></div>
+                    </li>
+
+
+                    <li class="form1">
+                        <label for="AI" class="NAME">
+                            <span>Additional Information</span>
+                            <em class="REQUIRE">*</em>
+                        </label>
+
+                        <div class="BOX">
+                            <span class="CON">
+                                <textarea name="" id="AI" required></textarea>
+                            </span>
+                        </div>
+                        <div class="line"></div>
+                    </li>
+                </ul>
+            </div>
+
+            <ul class="FOOT REL">
+                <li style="overflow:visible; position:relative;" class="FOOT1 FOOT2">
+                    <div class="FOOT3">
+                        <div class="FOOT4">
+                            <div class="FOOT5">
+                                <button class="SUBMIT SUBMIT1" type="submit">
+                                    <em>Submit</em>
+                                </button>
+                            </div>
+                        </div>
+                    </div>
+                </li>
+            </ul>
+
+        </div>
+
+    </div>
+
+</form>
+    
+</body>
+</html>
